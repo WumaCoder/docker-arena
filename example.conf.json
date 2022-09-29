@@ -1,0 +1,23 @@
+{
+  "queues": [
+    {
+      "type": "bull",
+      "hostId": "prodbp",
+      "name": "transfer",
+      "redis":{
+        "host": "1.15.0.42",
+        "password": "xxx",
+        "port": 6379,
+        "db": 3
+    }},
+    {
+      "type": "bull",
+      "hostId": "local",
+      "name": "transfer",
+      "redis":{
+        "host": "localhost",
+        "port": 6379,
+        "db": 3
+    }}
+  ]
+}

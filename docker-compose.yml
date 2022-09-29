@@ -1,0 +1,8 @@
+version: '3'
+services:
+  board:
+    image: mixmaxhq/arena
+    ports:
+      - "9001:4567"
+    volumes:
+      - ./conf.json:/opt/arena/index.json
